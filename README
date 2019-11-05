@@ -1,0 +1,18 @@
+pyhton - 3.8.0
+pytest - 5.2.2
+requests - 2.22.0
+py - 1.8.0
+selenium - 3.141.0
+jsonpath - 0.82
+
+
+1) To run the test, you need to install all the libraries.
+2) Specify gmail mail and password in the configemail file.
+3) Allow mail access for less secure programs, https://myaccount.google.com/lesssecureapps.
+4) Install the web driver for chrome of the desired version and indicate the path to it, driver = webdriver.Chrome ('E: \ Webdriver \ chromedriver').
+5) Go to the working directive of the project and run the test python -m unittest -v testSMTP.py
+6) All screenshots were saved to the project working directive
+
+            note
+            If, after numerous runs of the test, letters stopped coming to the service, you need to recreate the mail and specify new data
+            because gmail has a limited link sending limit
